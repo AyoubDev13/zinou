@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Rayhan House</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<meta name="description" content="Parfumerie Al Rayhan House">
+ <link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="photo/IMG_4534-fotor-bg-remover-20250726174628.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="photo/IMG_4534-fotor-bg-remover-20250726174628.png" alt="Logo" />
+    </div>
+    <h1>Al rayhan House</h1>
+    
+    <div class="menu-toggle" onclick="toggleMenu()">
+  &#9776;
+</div>
+<ul  class="pc-menu">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Contact Us</a></li>
+  <li><a href="#">About Us</a></li>
+</ul>
+
+
+
+<ul id="mobile-menu" class="hidden">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Contact Us</a></li>
+  <li><a href="#">My Account / Sign Up</a></li>
+
+</ul>
+
+ <div class="iconcart">
+  <img src="icon/shopping-bag (2).png">
+  <div class="totalquantity">0</div>
+
+</div>
+
+  </header>
+
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#">Product</a>
+    <a href="#">Femme</a>
+    <a href="#">Homme</a>
+  </nav>
+
+
+
+
+  <!-- Banner -->
+   <SEction class="pub">
+
+
+    <div class="continer">
+      <video class="video-pub"  autoplay muted loop>
+  <source src="background/Unveiling the Magic of Oud_ 3D Animation Commercial for Ajmal perfumes (1).mp4" type="video/mp4">
+</video>
+    </div>
+
+    
+
+
+
+
+   </SEction>
+   <hr>
+  <section class="banner">
+   
+  </section>
+
+  <!-- Search Bar -->
+  <div class="search-container">
+    <input type="text" placeholder="Search..." />
+    
+  </div>
+
+  <!-- Products -->
+  <section class="products">
+    <div class="product-card">
+      <img src="photo/0f292a7248e2065a79bd880ac3b3a58a.jpg" alt="Coco Noir" />
+      <h3>Coco Noir</h3>
+      <p>Femme <span>399€</span></p>
+      <button onclick="sendOrder(this)"> Add To Cart </button>
+
+    </div>
+
+    <div class="product-card">
+      <img src="photo/9a26876fb93cfcfb0f86eadfaed34b69.jpg" alt="Coco Red" />
+      <h3>Coco Red</h3>
+      <p>Femme <span>799€</span></p>
+      <button onclick="sendOrder(this)"> Add To Cart </button>
+
+    </div>
+
+    <div class="product-card">
+      <img src="photo/0f292a7248e2065a79bd880ac3b3a58a.jpg" alt="Tom Ford" />
+      <h3>Tom Ford Lost cherry</h3>
+      <p>Femme <span>659€</span></p>
+      <button onclick="sendOrder(this)"> Add To Cart </button>
+
+    </div>
+
+    <div class="product-card">
+      <img src="photo/f67ce95e3e2625e540436b19451d3da2.jpg" alt="Atelier des fleurs" />
+      <h3>Atelier des fleurs</h3>
+      <p>Femme <span>285€</span></p>
+      <button onclick="sendOrder(this)"> Add To Cart </button>
+    </div>
+  </section>
+<div class="cart">
+  <h2>cart</h2>
+  <div class="listcart">
+    <div class="item"> ... </div>
+  </div>
+  <div class="buttons">
+    <div class="close">CLOSE</div>
+    <div class="checkout" onclick="goToCheckout()">
+  <a href="chekout.html">CHECKOUT</a>
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
