@@ -1,4 +1,4 @@
-      body {
+        body {
   background-image: url(background/08f5382cf9e23a6c5eee6f0c5348705c1.JPG);
   background-size: cover;  
   background-repeat: no-repeat;    
@@ -131,3 +131,97 @@
         width: 30%;
         display: flex;
   align-items: center;    }
+
+
+
+
+  /* Media Query للموبايلات */
+@media (max-width: 768px) {
+  .checkoutLayout {
+    width: 100%;
+    display: block;
+    
+  }
+
+  .imgg {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .imgg img {
+    width: 140px;
+  }
+
+  .right {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .returnCart {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .returnCart h1 {
+    font-size: 20px;
+  }
+  .form input,
+      .form select {
+        
+        width:80%;
+        padding: 10px 10px;
+        border-radius: 20px;
+        margin-top: 15.5px;
+        border: none;
+        background-color: #313131ce;
+        color: rgb(255, 255, 255);
+      }
+
+}
+
+
+
+@media (max-width: 375px) {
+  .checkoutLayout {
+    width: 100%;
+    display: block;
+    
+  }
+
+  .imgg {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .imgg img {
+    width: 100px;
+  }
+
+  .right {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .returnCart {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .returnCart h1 {
+    font-size: 20px;
+  }
+  .form input,
+      .form select {
+        width:60%;
+        padding: 10px 10px;
+        border-radius: 20px;
+        border: none;
+        gap: 30px;
+        background-color: #313131ce;
+        color: rgb(255, 255, 255);
+      }
+
+}
+
